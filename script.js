@@ -16,8 +16,7 @@ function userId(arr){
 console.log(userId(users));
 
 
-// Сделайте так чтобы у всех добавлися возраст(age) со значением 18
-// Только у маши должно быть 22 используя reduce
+
 
 function addAge(arr){
     return arr.reduce((acc, user) => {
